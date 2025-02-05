@@ -1,0 +1,33 @@
+{
+  "name": "@sahilsharma/mf-app-command",
+  "version": "1.0.0",
+  "description": "A command-line tool for managing the MF app",
+  "main": "index.js",
+  "bin": {
+    "mf-app-command": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mf-app",
+    "command",
+    "cli",
+    "tool"
+  ],
+  "author": "Sahil Sharma",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahilsharma/mf-app-command" // URL to your GitHub repository (if any)
+  },
+  "bugs": {},
+  "homepage": "https://github.com/sahil75831",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
