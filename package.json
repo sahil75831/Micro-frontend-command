@@ -1,10 +1,10 @@
 {
-  "name": "@sahilsharma/mf-app-command",
+  "name": "@sahilsharma75831/microfrontend-app-command",
   "version": "1.0.0",
   "description": "A command-line tool for managing the MF app",
   "main": "index.js",
   "bin": {
-    "mf-app-command": "bin/index.js"
+    "create-microfrontend-app": "bin/index.js"
   },
   "scripts": {
     "start": "node bin/index.js",
