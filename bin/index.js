@@ -218,7 +218,7 @@ import './index.css';
 
 const App: React.FC = () => (
   <div className="container" style={{display:"flex", flexDirection:"column"}}>
-    <h1>Hi, welcome to the sahil!</h1>
+    <h1>Hi, welcome to the ${projectName}</h1>
 
     <div style={{ display: "flex", flexDirection: "column" }}>
       <h2 className='linkGroup'>About Author</h2>
