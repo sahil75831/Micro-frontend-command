@@ -1,13 +1,13 @@
 {
-  "name": "@sahilsharma75831/microfrontend-app-command",
-  "version": "1.0.0",
+  "name": "create-app-microfrontend",
+  "version": "1.0.6",
   "description": "A command-line tool for managing the MF app",
   "main": "index.js",
   "bin": {
-    "create-microfrontend-app": "bin/index.js"
+    "create-app-microfrontend": "./index.js"
   },
   "scripts": {
-    "start": "node bin/index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -24,7 +24,6 @@
   },
   "bugs": {},
   "homepage": "https://github.com/sahil75831",
-  "dependencies": {},
   "devDependencies": {},
   "engines": {},
   "publishConfig": {
